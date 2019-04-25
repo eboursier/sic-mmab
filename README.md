@@ -7,6 +7,9 @@ To do the simulations, first create scores/ and figures/ repositories. Then run 
 # Requirements
 
 Python 3.6
+
 numpy
+
 matplotlib
+
 tqdm
