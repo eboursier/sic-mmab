@@ -4,3 +4,5 @@ __pycache__/*
 **/figures
 .ipynb_checkpoints/
 .ipynb_checkpoints/*
+*.txt
+*.tar.gz
