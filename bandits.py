@@ -24,7 +24,7 @@ class FullSensingMultiPlayerMAB():
         collisions = unique[counts>1] # arms where collisions happen
         cols = np.array([p in collisions for p in plays]) # the value is 1 if there is collision
         rews = self.simulate_single_step_rewards() # generate the stats X_k(t)
-        rewards = rews[plays]*(1-cols) ()
+        rewards = rews[plays]*(1-cols)
         return list(zip(rews[plays], cols)), rewards   
     
     def simulate(self, horizon=10000):
